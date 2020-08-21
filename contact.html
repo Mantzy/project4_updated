@@ -84,25 +84,25 @@
                     <div class="col-sm-6">
                         <form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
                             <div class="form-group">
-                                <label>
+                                <label for="name">
 							Name
 						</label>
                                 <input id="name" class="form-control" required />
                             </div>
                             <div class="form-group">
-                                <label>
+                                <label for="email">
 							Email
 						</label>
                                 <input id="email" class="form-control" type="email" required />
                             </div>
                             <div class="form-group">
-                                <label>
+                                <label for="how">
 							How did you find me?
 						</label>
-                                <input class="form-control" type="email" required id="input_504" />
+                                <input id="how" class="form-control" type="email" required id="input_504" />
                             </div>
                             <div class="form-group">
-                                <label>
+                                <label for="message">
 							Project brief (Please be as detailed as possible including your company goals and any improvements you&rsquo;d like to have over your current website)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
                             </div>
@@ -138,24 +138,27 @@
                         <div class="row row-no-gutters social">
                             <div class="col-sm-3">
                                 <div class="text-center">
-                                    <a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+                                    <a class="social" href="index.html" aria-label="Find me on Twitter"><span class="fa fa-twitter icon-md" aria-hidden="true"></span></a>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="text-center">
-                                    <a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+                                    <a class="social" href="index.html" aria-label="Find me on Facebook"><span class="fa fa-facebook icon-md" aria-hidden="true"></span></a>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="text-center">
-                                    <a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+                                    <a class="social" href="index.html" aria-label="Find me on Dribbble"><span class="fa fa-dribbble icon-md" aria-hidden="true"></span></a>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="text-center">
-                                    <a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+                                    <a class="social" href="index.html" aria-label="Find me on Instagram"><span class="fa fa-instagram icon-md" aria-hidden="true"></span></a>
                                 </div>
                             </div>
+
+
+
                         </div>
                     </div>
                 </div>
